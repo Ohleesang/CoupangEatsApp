@@ -343,332 +343,47 @@
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginRight="15dp">
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="269dp"
-                            android:layout_height="214dp">
-
-                            <ImageView
-                                android:id="@+id/cardimageView"
-                                android:layout_width="267dp"
-                                android:layout_height="140dp"
-                                android:scaleType="fitStart"
-                                android:src="@drawable/food1"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:id="@+id/cd_name_textView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="피자탑 강남 1호점"
-                                android:textStyle="bold"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView" />
-
-                            <TextView
-                                android:id="@+id/cd_time_TextView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="4dp"
-                                android:text="27~37분"
-                                android:textColor="#838383"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView" />
-
-                            <TextView
-                                android:id="@+id/cd_score_TextView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4.9(12,343)	·2.3km"
-                                android:textColor="#838383"
-                                app:layout_constraintBottom_toBottomOf="@+id/cd_star"
-                                app:layout_constraintStart_toEndOf="@+id/cd_star"
-                                app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                            <TextView
-                                android:id="@+id/cd_star"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="★ "
-                                android:textColor="#FFD500"
-                                android:textSize="16dp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cd_name_textView"
-                                tools:ignore="DuplicateIds" />
-                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <include layout="@layout/card_layout"/>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginRight="15dp">
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="269dp"
-                            android:layout_height="214dp">
-
-                            <ImageView
-                                android:id="@+id/cardimageView2"
-                                android:layout_width="267dp"
-                                android:layout_height="140dp"
-                                android:scaleType="fitStart"
-                                android:src="@drawable/food2"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:id="@+id/cd_name_textView2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="중경마라탕 강남점"
-                                android:textStyle="bold"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView2" />
-
-                            <TextView
-                                android:id="@+id/cd_time_TextView2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="4dp"
-                                android:text="25~35분"
-                                android:textColor="#838383"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView2" />
-
-                            <TextView
-                                android:id="@+id/cd_score_TextView2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4.9(18,906)	·0.4km"
-                                android:textColor="#838383"
-                                app:layout_constraintBottom_toBottomOf="@+id/cd_star"
-                                app:layout_constraintStart_toEndOf="@+id/cd_star"
-                                app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                            <TextView
-                                android:id="@+id/cd_star"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="★ "
-                                android:textColor="#FFD500"
-                                android:textSize="16dp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cd_name_textView2"
-                                tools:ignore="DuplicateIds" />
-                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <include layout="@layout/card_layout"/>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginRight="15dp">
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="269dp"
-                            android:layout_height="214dp">
-
-                            <ImageView
-                                android:id="@+id/cardimageView3"
-                                android:layout_width="267dp"
-                                android:layout_height="140dp"
-                                android:scaleType="fitStart"
-                                android:src="@drawable/food3"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:id="@+id/cd_name_textView3"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="당신이 선택한 인생치킨 강남본점"
-                                android:textStyle="bold"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView3" />
-
-                            <TextView
-                                android:id="@+id/cd_time_TextView3"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="4dp"
-                                android:text="30~40분"
-                                android:textColor="#838383"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView3" />
-
-                            <TextView
-                                android:id="@+id/cd_score_TextView3"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4.8(4,463)	·0.3km"
-                                android:textColor="#838383"
-                                app:layout_constraintBottom_toBottomOf="@+id/cd_star"
-                                app:layout_constraintStart_toEndOf="@+id/cd_star"
-                                app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                            <TextView
-                                android:id="@+id/cd_star"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="★ "
-                                android:textColor="#FFD500"
-                                android:textSize="16dp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cd_name_textView3"
-                                tools:ignore="DuplicateIds" />
-                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <include layout="@layout/card_layout"/>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginRight="15dp">
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="269dp"
-                            android:layout_height="214dp">
-
-                            <ImageView
-                                android:id="@+id/cardimageView4"
-                                android:layout_width="267dp"
-                                android:layout_height="140dp"
-                                android:scaleType="fitStart"
-                                android:src="@drawable/food4"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:id="@+id/cd_name_textView4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="파스타에 반하다"
-                                android:textStyle="bold"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView4" />
-
-                            <TextView
-                                android:id="@+id/cd_time_TextView4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="4dp"
-                                android:text="24~34분"
-                                android:textColor="#838383"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView4" />
-
-                            <TextView
-                                android:id="@+id/cd_score_TextView4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4.9(4,309)	·1.0km"
-                                android:textColor="#838383"
-                                app:layout_constraintBottom_toBottomOf="@+id/cd_star"
-                                app:layout_constraintStart_toEndOf="@+id/cd_star"
-                                app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                            <TextView
-                                android:id="@+id/cd_star"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="★ "
-                                android:textColor="#FFD500"
-                                android:textSize="16dp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cd_name_textView4"
-                                tools:ignore="DuplicateIds" />
-                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <include layout="@layout/card_layout"/>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginRight="15dp">
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="269dp"
-                            android:layout_height="214dp">
-
-                            <ImageView
-                                android:id="@+id/cardimageView5"
-                                android:layout_width="267dp"
-                                android:layout_height="140dp"
-                                android:scaleType="fitStart"
-                                android:src="@drawable/food5"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:id="@+id/cd_name_textView5"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="잭잭 강남점"
-                                android:textStyle="bold"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView5" />
-
-                            <TextView
-                                android:id="@+id/cd_time_TextView5"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="4dp"
-                                android:text="15~20분"
-                                android:textColor="#838383"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cardimageView5" />
-
-                            <TextView
-                                android:id="@+id/cd_score_TextView5"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4.9(57)	·0.3km"
-                                android:textColor="#838383"
-                                app:layout_constraintBottom_toBottomOf="@+id/cd_star"
-                                app:layout_constraintStart_toEndOf="@+id/cd_star"
-                                app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                            <TextView
-                                android:id="@+id/cd_star"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginTop="8dp"
-                                android:text="★ "
-                                android:textColor="#FFD500"
-                                android:textSize="16dp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cd_name_textView5"
-                                tools:ignore="DuplicateIds" />
-                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <include layout="@layout/card_layout"/>
 
                     </androidx.cardview.widget.CardView>
 
@@ -706,347 +421,43 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card6"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="16dp">
+                    <include layout="@layout/card_layout"/>
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/big_cardView1"
-                            android:layout_width="330dp"
-                            android:layout_height="174dp"
-                            android:layout_marginTop="8dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/card1"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/cd_name_textView6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="8dp"
-                            android:text="크리스피크림도넛 1호점"
-                            android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView1" />
-
-                        <TextView
-                            android:id="@+id/cd_time_TextView6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="4dp"
-                            android:text="26~35분"
-                            android:textColor="#838383"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView1" />
-
-                        <TextView
-                            android:id="@+id/cd_score_TextView6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:text="4.9(3,089)	·0.1km"
-                            android:textColor="#838383"
-                            app:layout_constraintStart_toEndOf="@+id/cd_star"
-                            app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                        <TextView
-                            android:id="@+id/cd_star"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginBottom="4dp"
-                            android:text="★ "
-                            android:textColor="#FFD500"
-                            android:textSize="16dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cd_name_textView6"
-                            tools:ignore="DuplicateIds" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card7"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="16dp">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/big_cardView2"
-                            android:layout_width="330dp"
-                            android:layout_height="174dp"
-                            android:layout_marginTop="8dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/card2"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/cd_name_textView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="8dp"
-                            android:text="어수수산"
-                            android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView2" />
-
-                        <TextView
-                            android:id="@+id/cd_time_TextView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="4dp"
-                            android:text="35~45분"
-                            android:textColor="#838383"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView2" />
-
-                        <TextView
-                            android:id="@+id/cd_score_TextView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:text="4.9(21,824)	·1.5km"
-                            android:textColor="#838383"
-                            app:layout_constraintStart_toEndOf="@+id/cd_star"
-                            app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                        <TextView
-                            android:id="@+id/cd_star"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginBottom="4dp"
-                            android:text="★ "
-                            android:textColor="#FFD500"
-                            android:textSize="16dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cd_name_textView7"
-                            tools:ignore="DuplicateIds" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <include layout="@layout/card_layout"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card8"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/big_cardView3"
-                            android:layout_width="330dp"
-                            android:layout_height="174dp"
-                            android:layout_marginTop="8dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/card3"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/cd_name_textView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="8dp"
-                            android:text="강남진해장"
-                            android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView3" />
-
-                        <TextView
-                            android:id="@+id/cd_time_TextView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="4dp"
-                            android:text="20~30분"
-                            android:textColor="#838383"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView3" />
-
-                        <TextView
-                            android:id="@+id/cd_score_TextView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:text="4.9(21,824)	·1.5km"
-                            android:textColor="#838383"
-                            app:layout_constraintStart_toEndOf="@+id/cd_star"
-                            app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                        <TextView
-                            android:id="@+id/cd_star"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginBottom="4dp"
-                            android:text="★ "
-                            android:textColor="#FFD500"
-                            android:textSize="16dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cd_name_textView8"
-                            tools:ignore="DuplicateIds" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <include layout="@layout/card_layout"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card9"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="16dp">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/big_cardView4"
-                            android:layout_width="330dp"
-                            android:layout_height="174dp"
-                            android:layout_marginTop="8dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/card4"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/cd_name_textView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="8dp"
-                            android:text="메가박스 강남점"
-                            android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView4" />
-
-                        <TextView
-                            android:id="@+id/cd_time_TextView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="4dp"
-                            android:text="14~24분"
-                            android:textColor="#838383"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView4" />
-
-                        <TextView
-                            android:id="@+id/cd_score_TextView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:text="4.9(21,824)	·1.5km"
-                            android:textColor="#838383"
-                            app:layout_constraintStart_toEndOf="@+id/cd_star"
-                            app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                        <TextView
-                            android:id="@+id/cd_star"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginBottom="4dp"
-                            android:text="★ "
-                            android:textColor="#FFD500"
-                            android:textSize="16dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cd_name_textView9"
-                            tools:ignore="DuplicateIds" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <include layout="@layout/card_layout"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card10"
                     android:layout_width="366dp"
                     android:layout_height="243dp"
                     android:layout_marginTop="16dp">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/big_cardView5"
-                            android:layout_width="330dp"
-                            android:layout_height="174dp"
-                            android:layout_marginTop="8dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/card5"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/cd_name_textView10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="8dp"
-                            android:text="파파이스 강남점"
-                            android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView5" />
-
-                        <TextView
-                            android:id="@+id/cd_time_TextView10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="4dp"
-                            android:text="19~20분"
-                            android:textColor="#838383"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/big_cardView5" />
-
-                        <TextView
-                            android:id="@+id/cd_score_TextView10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:text="4.6(594)	·0.5km"
-                            android:textColor="#838383"
-                            app:layout_constraintStart_toEndOf="@+id/cd_star"
-                            app:layout_constraintTop_toTopOf="@+id/cd_star" />
-
-                        <TextView
-                            android:id="@+id/cd_star"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginBottom="4dp"
-                            android:text="★ "
-                            android:textColor="#FFD500"
-                            android:textSize="16dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/cd_name_textView10"
-                            tools:ignore="DuplicateIds" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <include layout="@layout/card_layout"/>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
